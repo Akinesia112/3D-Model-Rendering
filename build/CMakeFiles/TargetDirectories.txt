@@ -1,0 +1,7 @@
+C:/Users/Arthur/Downloads/Hw1/sample_code/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Arthur/Downloads/Hw1/sample_code/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Arthur/Downloads/Hw1/sample_code/build/thirdparty/glad/CMakeFiles/glad.dir
+C:/Users/Arthur/Downloads/Hw1/sample_code/build/thirdparty/imgui/CMakeFiles/imgui.dir
+C:/Users/Arthur/Downloads/Hw1/sample_code/build/thirdparty/stb/CMakeFiles/stb.dir
+C:/Users/Arthur/Downloads/Hw1/sample_code/build/thirdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir
+C:/Users/Arthur/Downloads/Hw1/sample_code/build/src/CMakeFiles/Homework01.dir
