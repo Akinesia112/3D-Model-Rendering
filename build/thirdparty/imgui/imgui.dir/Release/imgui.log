@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/Arthur/Downloads/Hw1/sample_code/thirdparty/imgui/CMakeLists.txt
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_widgets.cpp
+  正在產生程式碼...
+  imgui.vcxproj -> C:\Users\Arthur\Downloads\Hw1\sample_code\build\thirdparty\imgui\Release\imgui.lib
