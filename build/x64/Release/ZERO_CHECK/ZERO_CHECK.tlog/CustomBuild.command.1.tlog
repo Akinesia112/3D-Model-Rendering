@@ -1,0 +1,10 @@
+^C:\USERS\ARTHUR\DOWNLOADS\HW1\SAMPLE_CODE\BUILD\CMAKEFILES\4A96560B87872982D927748BFF0B8AE2\GENERATE.STAMP.RULE
+setlocal
+D:\bin\cmake.exe -SC:/Users/Arthur/Downloads/Hw1/sample_code -BC:/Users/Arthur/Downloads/Hw1/sample_code/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Arthur/Downloads/Hw1/sample_code/build/Homework01.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
