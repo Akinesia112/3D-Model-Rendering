@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/Users/Arthur/Downloads/Hw1/sample_code/src/CMakeLists.txt
+  Main.cpp
+  Mesh.cpp
+  TextureFactory.cpp
+  OpenGLWindow.cpp
+  OpenGLBufferObject.cpp
+  OpenGLException.cpp
+  OpenGLShader.cpp
+  OpenGLShaderProgram.cpp
+C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLShaderProgram.cpp(201,81): warning C4312: '類型轉換': 將 'int' 轉換為較大的 'GLvoid *'
+  OpenGLVertexArrayObject.cpp
+  OpenGLTexture.cpp
+  Generals.cpp
+  FileIn.cpp
+  正在產生程式碼...
+  Homework01.vcxproj -> C:\Users\Arthur\Downloads\Hw1\sample_code\build\bin\Release\Homework01.exe

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Model\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Model\TextureFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGLWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLVertexArrayObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Utils\FileIO\Detail\Generals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Utils\FileIO\FileIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Model\Mesh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Model\TextureFactory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGLWindow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\Detail\Set.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLBufferObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLShader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLShaderProgram.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLVertexArrayObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLTexture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Utils\Compilers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Utils\Global.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Utils\StringFormat\StringFormat.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Utils\FileIO\Detail\Generals.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Utils\FileIO\FileIn.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\Detail\Set-inl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\OpenGL\OpenGLShaderProgram-inl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\Utils\StringFormat\StringFormat-inl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Arthur\Downloads\Hw1\sample_code\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2F609880-D764-36F4-9A37-44152B885186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1CAD6E8C-A80F-31EB-9818-DD8240A5AA2C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
