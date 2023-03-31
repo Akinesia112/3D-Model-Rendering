@@ -1,0 +1,7 @@
+Opencooper - tah teapot (solid).stl
+Creative Commons CC0 1.0 Universal Public Domain Dedication
+https://creativecommons.org/publicdomain/zero/1.0/
+
+https://commons.wikimedia.org/wiki/File:Utah_teapot_(solid).stl
+
+Modify this file into obj file with texture mapping by using blender.
