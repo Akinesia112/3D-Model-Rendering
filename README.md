@@ -5,6 +5,6 @@ Write an OpenGL application with the following features.
 
 <br>
 
- [![Watch the video](https://img.youtube.com/vi/hJhSyo3-nso/maxresdefault.jpg)](https://youtu.be/hJhSyo3-nso)
+ [![Watch the video](https://img.youtube.com/vi/hJhSyo3-nso/hqdefault.jpg)](https://youtu.be/hJhSyo3-nso)
 
   * Demo
