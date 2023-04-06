@@ -23,7 +23,6 @@ bool isCreated(GLuint id) noexcept;
 inline bool compileStatus(GLuint id) noexcept
 {
     GLint status;
-    // Fill in the Blank
     glGetShaderiv(id, GL_COMPILE_STATUS, &status);
     return (status == GL_TRUE);
 }
@@ -80,9 +79,6 @@ bool OpenGLShader::compileFromFile(const char *fileName) noexcept
 bool OpenGLShader::compileFromSource(const char *source) noexcept
 {
     PROGRAM_ASSERT(Detail::isCreated(id_));
-
-    // Fill in the Blank
-    // Fill in the Blank
     glShaderSource(id_, 1, &source, NULL);
     glCompileShader(id_);
 
@@ -93,8 +89,6 @@ bool OpenGLShader::compileFromSource(const char *source) noexcept
 void OpenGLShader::create()
 {
     PROGRAM_ASSERT(!Detail::isCreated(id_));
-
-    // Fill in the Blank
     id_ = glCreateShader(type_);
 
     if (!Detail::isCreated(id_))
@@ -108,8 +102,6 @@ GLuint OpenGLShader::id() const noexcept { return id_; }
 void OpenGLShader::tidy() noexcept
 {
     PROGRAM_ASSERT(Detail::isCreated(id_));
-
-    // Fill in the Blank
     glDeleteShader(id_);
     id_ = Detail::noId;
 }
