@@ -66,7 +66,6 @@ void OpenGLBufferObject::allocateBufferData(const void *data,
 {
     PROGRAM_ASSERT(Detail::isCreated(id_));
 
-    // Fill in the 
     glBufferData(type_, size, data,usagePattern_);
 }
 
@@ -74,7 +73,6 @@ void OpenGLBufferObject::bind() noexcept
 {
     PROGRAM_ASSERT(Detail::isCreated(id_));
 
-    // Fill in the Blank
     glBindBuffer(type_, id_);
 }
 
@@ -82,7 +80,6 @@ void OpenGLBufferObject::create()
 {
     PROGRAM_ASSERT(!Detail::isCreated(id_));
 
-    // Fill in the Blank
     glGenBuffers(1, &id_);
 
     if (!Detail::isCreated(id_))
@@ -97,7 +94,6 @@ void OpenGLBufferObject::release() noexcept
 {
     PROGRAM_ASSERT(Detail::isCreated(id_));
 
-    // Fill in the Blank
     glBindBuffer(type_, 0);
 }
 
@@ -105,7 +101,6 @@ void OpenGLBufferObject::tidy() noexcept
 {
     PROGRAM_ASSERT(Detail::isCreated(id_));
 
-    // Fill in the Blank
     glDeleteBuffers(1, &id_);
 
     id_ = Detail::noId;
