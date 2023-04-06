@@ -108,8 +108,6 @@ void OpenGLTexture::bindBuffer(const std::vector<unsigned char> &buffer) const
 void OpenGLTexture::create()
 {
     PROGRAM_ASSERT(!Detail::isCreated(id_));
-
-    // Fill in the Blank
     glGenTextures(1, &id_);
 
 
@@ -139,8 +137,6 @@ OpenGLTexture::Filter OpenGLTexture::minificationFilter() const
 void OpenGLTexture::release()
 {
     PROGRAM_ASSERT(Detail::isCreated(id_));
-
-    // Fill in the Blank
     glBindTexture(GL_TEXTURE_2D, 0);
 }
 
@@ -150,7 +146,6 @@ void OpenGLTexture::setMagnificationFilter(Filter filter)
     magnificationFilter_ = filter;
 
     bind();
-    // Fill in the Blank
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER,
                     magnificationFilter_);
 
@@ -163,7 +158,6 @@ void OpenGLTexture::setMinificationFilter(Filter filter)
     minificationFilter_ = filter;
 
     bind();
-    // Fill in the Blank
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER,
                     filter);
 
@@ -176,7 +170,6 @@ void OpenGLTexture::setWrapOption(WrapOption option)
     wrapOption_ = option;
 
     bind();
-    // Fill in the Blank
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, option);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, option);
 
@@ -186,8 +179,6 @@ void OpenGLTexture::setWrapOption(WrapOption option)
 void OpenGLTexture::tidy()
 {
     PROGRAM_ASSERT(Detail::isCreated(id_));
-
-    // Fill in the Blank
     glDeleteTextures(1, &id_);
     id_ = 0;
 }
