@@ -123,7 +123,6 @@ void OpenGLShaderProgram::attachShader(
     std::unique_ptr<OpenGLShader> &&shader) noexcept
 {
     PROGRAM_ASSERT(Detail::isCreated(id_));
-    // Fill in the Blank
     glAttachShader(id_, shader->id());
     shaders_.push_back(std::move(shader));
 }
@@ -131,7 +130,6 @@ void OpenGLShaderProgram::attachShader(
 void OpenGLShaderProgram::create()
 {
     PROGRAM_ASSERT(!Detail::isCreated(id_));
-    // Fill in the Blank
     id_ = glCreateProgram();
 
     if (!Detail::isCreated(id_))
@@ -143,8 +141,6 @@ void OpenGLShaderProgram::create()
 void OpenGLShaderProgram::destroyProgram() noexcept
 {
     PROGRAM_ASSERT(Detail::isCreated(id_));
-
-    // Fill in the Blank
     glDeleteProgram(id_);
 
     id_ = Detail::noId;
@@ -156,7 +152,6 @@ void OpenGLShaderProgram::destroyShaders() noexcept
 
     for (auto &shader : shaders_)
     {
-        // Fill in the Blank
         glDeleteShader(shader->id());
         shader.reset(nullptr);
     }
@@ -166,13 +161,11 @@ void OpenGLShaderProgram::destroyShaders() noexcept
 
 void OpenGLShaderProgram::disableAttributeArray(GLuint index) noexcept
 {
-    // Fill in the Blank
     glDisableVertexAttribArray(index);
 }
 
 void OpenGLShaderProgram::enableAttributeArray(GLuint index) noexcept
 {
-    // Fill in the Blank
     glEnableVertexAttribArray(index);
 }
 
@@ -180,14 +173,12 @@ GLuint OpenGLShaderProgram::id() const noexcept { return id_; }
 
 void OpenGLShaderProgram::link() noexcept 
 { 
-    // Fill in the Blank
     glLinkProgram(id_);
 }
 
 bool OpenGLShaderProgram::linkStatus() const noexcept
 {
     GLint status;
-    // Fill in the Blank
     glGetProgramiv(id_, GL_LINK_STATUS, &status);
     return (status == GL_TRUE);
 }
@@ -197,21 +188,18 @@ void OpenGLShaderProgram::mapAttributePointer(GLuint index, GLint size,
                                               GLsizei stride,
                                               int offset) noexcept
 {
-    // Fill in the Blank
     glVertexAttribPointer(index, size, type, normalized, stride,(GLvoid *)offset);
 }
 
 void OpenGLShaderProgram::tidy() noexcept
 {
     PROGRAM_ASSERT(Detail::isCreated(id_));
-
     destroyShaders();
     destroyProgram();
 }
 
 void OpenGLShaderProgram::use() noexcept 
 {
-    // Fill in the Blank
     glUseProgram(id_);
 }
 
