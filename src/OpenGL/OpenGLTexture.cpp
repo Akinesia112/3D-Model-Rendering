@@ -84,18 +84,15 @@ OpenGLTexture::~OpenGLTexture()
 void OpenGLTexture::bind()
 {
     PROGRAM_ASSERT(Detail::isCreated(id_));
-
-    // Fill in the Blank
     glBindTexture(GL_TEXTURE_2D, id_);
 }
 
 void OpenGLTexture::bindBuffer(const std::vector<unsigned char> &buffer) const
 {
-	// Fill in the Blank
-    // (bind)
-	// (parameter setup: filter and warpping method)
-	// (data specify)
-	// (generate mipmap)
+    // bind
+    // parameter setup: filter and warpping method
+    // data specify
+    // generate mipmap
     glBindTexture(GL_TEXTURE_2D, id_);
     // Set filtering and wrapping options
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER,minificationFilter_);
