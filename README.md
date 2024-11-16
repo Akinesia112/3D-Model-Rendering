@@ -1,4 +1,5 @@
 # 3D-Model-Rendering
+## Shih-Yu Lai
 Write an OpenGL application with the following features:
 - Load and render the 3d model. 
 - Render the model with the texture.
